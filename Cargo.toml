@@ -99,7 +99,7 @@ _rt-tokio = []
 any = ["sqlx-core/any", "sqlx-mysql?/any", "sqlx-postgres?/any", "sqlx-sqlite?/any"]
 postgres = ["sqlx-postgres", "sqlx-macros?/postgres"]
 mysql = ["sqlx-mysql", "sqlx-macros?/mysql"]
-sqlite = ["sqlx-sqlite", "sqlx-macros?/sqlite"]
+sqlite = ["sqlx-sqlite", "sqlx-sqlite?/bundled", "sqlx-macros?/sqlite"]
 
 # types
 json = ["sqlx-macros?/json", "sqlx-mysql?/json", "sqlx-postgres?/json", "sqlx-sqlite?/json"]
